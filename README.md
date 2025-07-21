@@ -29,3 +29,25 @@ To set up the project locally:
    ```sh
    git clone https://github.com/chanakaeshan/student-registration.git
    cd student-registration
+
+2. **Install dependencies**
+    ```bash
+    npm install
+    ```
+
+3. **Configure environment variables**
+    - Copy `.env.example` to `.env` and update values as needed.
+
+4. **Start the server**
+    ```bash
+    npm start
+    ```
+    The server runs on `http://localhost:3000` by default.
+
+    Run the Backend Server
+
+    ```bash
+    node server.js
+    ```
+
+   The server runs on port 5000 by default.
