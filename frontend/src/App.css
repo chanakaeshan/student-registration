@@ -89,7 +89,6 @@ button {
   font-size: 17px;
   cursor: pointer;
   transition: background 0.4s ease, box-shadow 0.4s ease;
-  box-shadow: 0 6px 20px rgba(76, 154, 255, 0.5);
 }
 
 button:hover {
