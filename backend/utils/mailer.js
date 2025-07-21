@@ -19,7 +19,7 @@ const sendConfirmationEmail = async (student) => {
         <p><strong>Student Name:</strong> ${student.name}</p>
         <p><strong>Registration ID:</strong> ${student.id}</p>
         <p><strong>Class Name:</strong> ${student.className}</p>
-        <p>Thank you for registering with DETZ Global. We look forward to seeing you in class!</p>
+        <p>Thank you for registering with DETZ Global. We will contact you soon</p>
       </div>
     `,
   };
