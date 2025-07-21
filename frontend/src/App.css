@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: "Segoe UI", sans-serif;
-  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  background: linear-gradient(to right, #2f0d8d, #660cb9);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,7 +45,7 @@ select {
 
 input:focus,
 select:focus {
-  border-color: #4c9aff;
+  border-color: #8805f3;
   outline: none;
   box-shadow: 0 0 0 2px rgba(76, 154, 255, 0.2);
 }
@@ -53,7 +53,7 @@ select:focus {
 button {
   padding: 12px;
   margin-top: 10px;
-  background: #4c9aff;
+  background: #8d18c4;
   color: white;
   font-weight: bold;
   border: none;
@@ -64,7 +64,7 @@ button {
 }
 
 button:hover {
-  background: #3686e4;
+  background: #19348d;
 }
 
 .status {
