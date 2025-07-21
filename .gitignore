@@ -1,0 +1,17 @@
+# Node modules
+node_modules/
+# Environment files
+.env
+# Firebase keys or any secrets
+*.json
+# Build files
+dist/
+build/
+# Logs
+logs/
+*.log
+npm-debug.log*
+# OS or editor files
+.DS_Store
+Thumbs.db
+.vscode/
