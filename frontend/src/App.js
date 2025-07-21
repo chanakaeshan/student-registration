@@ -62,7 +62,7 @@ function App() {
                 <option value="Data Science">Data Science</option>
                 <option value="AI & Machine Learning">AI & Machine Learning</option>
               </select>
-              <button type="submit">Register</button>
+              <button type="submit">Register Now</button>
               
               <p className="text-center mt-4">DETZ Global Pvt Ltd</p>
 
