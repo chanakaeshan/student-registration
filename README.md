@@ -16,6 +16,10 @@ This application provides functionality to register students, manage their infor
 
 - **JavaScript** (main language)
 - Likely uses Node.js or a JavaScript-based framework for backend and/or frontend development (based on repo language)
+- **Firebase Firestore** – Database
+- **Firebase Admin SDK** – Authentication & Firestore access
+- **Nodemailer** – Sending confirmation emails
+- **dotenv** – Environment variable management
 
 ## Getting Started
 
