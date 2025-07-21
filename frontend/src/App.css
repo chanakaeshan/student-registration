@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  font-family: "Barlow", sans-serif;
-  background: linear-gradient(to right, #8107a7, #4e2196);
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,7 +15,7 @@ body {
 }
 
 .card {
-  background: rgb(255, 255, 255);
+  background: white;
   padding: 30px 25px;
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -32,17 +32,20 @@ form {
   flex-direction: column;
 }
 
-input {
+input,
+select {
   padding: 12px 14px;
   margin: 10px 0;
   border: 1px solid #ccc;
   border-radius: 8px;
   font-size: 15px;
   transition: 0.2s ease;
+  background-color: white;
 }
 
-input:focus {
-  border-color: #371b6b;
+input:focus,
+select:focus {
+  border-color: #4c9aff;
   outline: none;
   box-shadow: 0 0 0 2px rgba(76, 154, 255, 0.2);
 }
@@ -50,7 +53,7 @@ input:focus {
 button {
   padding: 12px;
   margin-top: 10px;
-  background: #8c00ff;
+  background: #4c9aff;
   color: white;
   font-weight: bold;
   border: none;
@@ -61,11 +64,27 @@ button {
 }
 
 button:hover {
-  background: #2a2386;
+  background: #3686e4;
 }
 
 .status {
   margin-top: 15px;
   font-size: 14px;
+  color: #444;
+}
+
+.thank-you {
+  text-align: center;
+  padding: 20px;
+}
+
+.thank-you h2 {
+  color: #6704d0;
+  margin-bottom: 10px;
+}
+
+.thank-you p {
+  font-size: 16px;
+  margin: 8px 0;
   color: #444;
 }
