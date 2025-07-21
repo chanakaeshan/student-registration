@@ -38,6 +38,7 @@ function App() {
         ) : (
           <>
             <h2>🎓 Student Registration</h2>
+            <h3>Join DETZ Global Education Platform</h3>
             <form onSubmit={handleSubmit}>
               <input
                 name="name"
@@ -62,6 +63,9 @@ function App() {
                 <option value="AI & Machine Learning">AI & Machine Learning</option>
               </select>
               <button type="submit">Register</button>
+              
+              <p className="text-center mt-4">DETZ Global Pvt Ltd</p>
+
             </form>
             {status && <p className="status">{status}</p>}
           </>
